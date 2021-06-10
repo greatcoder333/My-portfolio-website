@@ -1,0 +1,40 @@
+h4{
+    color : #8A2BE2;
+text-align: center;
+    }
+    h1{
+    color :#650568;
+    text-align : center;
+    }
+    h2{
+    color: #054950;
+    text-align: center;
+    }
+    a:link {color: rgb(248, 17, 152);}
+    a:visited{color: #00008E}
+
+    .head{
+ background-color: #F81195; 
+/* background-image: url(Flower.png); */
+/* background-size: 200px 50px; */
+display :flex;
+justify-content: space-evenly;
+align-items: center;
+    }
+.parent{
+display :flex;
+background-color: #010135;
+justify-content: space-between;
+}
+.icons{
+background-color: #7B3F00;
+display: flex;
+justify-content: center;
+}
+body{
+background-color: #40D47E;
+}
+.game{position: relative;}
+.game h4{position:absolute; top: 50%; left : 50%; transform:translate(-50%, -50%); opacity:0}
+.game:hover h4{opacity:1}
+.game:hover img{opacity: 0.33; transform:scale(1.3)}
